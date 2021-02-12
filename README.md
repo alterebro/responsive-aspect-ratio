@@ -6,9 +6,19 @@
 
 Reserve the vertical space needed by responsive elements on your web document such as images or videos when they are still loading so you can avoid a cumulative layout shift.
 
+## Install
+
+```sh
+$ npm i responsive-aspect-ratio
+```
+
+```html
+<script src="https://unpkg.com/responsive-aspect-ratio"></script>
+```
+
 ## Usage
 
-Simply include the script and add to the parent container of your responsive element a data attribute aspect-ratio with the desired aspect ratio (16:9, 1:1, 4:3...) as a value. For example: `data-aspect-ratio="16:9"`, `data-aspect-ratio="1:1"`, `data-aspect-ratio="4:3"`...
+Simply include the script as described above and add to the parent container of your responsive element a data attribute aspect-ratio with the desired aspect ratio (16:9, 1:1, 4:3...) as a value. For example: `data-aspect-ratio="16:9"`, `data-aspect-ratio="1:1"`, `data-aspect-ratio="4:3"`...
 
 ```html
 <div data-aspect-ratio="21:9">
