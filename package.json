@@ -4,7 +4,7 @@
   "description": "Responsive elements with a fixed aspect ratio",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx babel src/index.js --out-file dist/responsive-aspect-ratio.min.js --presets=@babel/preset-env,minify"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/alterebro/responsive-aspect-ratio/issues"
   },
-  "homepage": "https://github.com/alterebro/responsive-aspect-ratio#readme"
+  "homepage": "https://github.com/alterebro/responsive-aspect-ratio#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-preset-minify": "^0.5.1"
+  }
 }
