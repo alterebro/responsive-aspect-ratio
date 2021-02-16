@@ -45,7 +45,7 @@ Simply include the script as described above and add to the parent container of 
 
 Go to this CodePen to see live example: https://codepen.io/alterebro/full/ZEBKQrY
 
-[![Responsive Aspect Ratio Example](https://assets.codepen.io/206220/internal/screenshots/pens/ZEBKQrY.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1613502084&width=960 "Responsive Aspect Ratio Example")](https://codepen.io/alterebro/pen/ZEBKQrY)
+<a href="https://codepen.io/alterebro/pen/ZEBKQrY"><img src="https://blog.codepen.io/wp-content/uploads/2012/06/codepen-wordmark-display-inside-black@10x.png" alt="Responsive Aspect Ratio Example" width="300" /></a>
 
 
 ## Info
