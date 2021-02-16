@@ -4,7 +4,7 @@
 
 > **Responsive elements with a fixed aspect ratio**.
 
-Reserve the vertical space needed by responsive elements on your web document such as images or videos when they are still loading so you can avoid a cumulative layout shift.
+Reserve the vertical space needed by responsive elements on your web document such as images or videos when they are still loading so you can avoid the cumulative layout shift.
 
 ## Install
 
@@ -40,6 +40,13 @@ Simply include the script as described above and add to the parent container of 
     </p>
 </div>
 ```
+
+## Examples
+
+Go to this CodePen to see live example: https://codepen.io/alterebro/full/ZEBKQrY
+
+[![Responsive Aspect Ratio Example](https://assets.codepen.io/206220/internal/screenshots/pens/ZEBKQrY.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1613502084&width=960 "Responsive Aspect Ratio Example")](https://codepen.io/alterebro/pen/ZEBKQrY)
+
 
 ## Info
 
